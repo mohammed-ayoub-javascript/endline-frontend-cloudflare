@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 export const messagesBoost = [
   {
     content: 'مرّت خمس عشرة دقيقة… المحارب يستجمع قواه الآن، ويمضي بثبات ⚔️',

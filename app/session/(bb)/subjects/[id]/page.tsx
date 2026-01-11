@@ -18,7 +18,7 @@ import {
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-
+export const runtime = 'edge';
 interface Subject {
   ID: string;
   Title: string;

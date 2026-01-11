@@ -7,7 +7,7 @@ import { useParams, useRouter } from 'next/navigation';
 import axios from 'axios';
 import { API } from '@/lib/api';
 import { toast } from 'sonner';
-
+export const runtime = 'edge';
 interface Note {
   ID: string;
   page_number: string;

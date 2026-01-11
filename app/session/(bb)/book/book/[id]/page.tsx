@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
-
+export const runtime = 'edge';
 interface Book {
   ID: string;
   Title: string;

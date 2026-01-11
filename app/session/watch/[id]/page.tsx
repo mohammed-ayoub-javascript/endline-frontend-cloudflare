@@ -19,7 +19,7 @@ import { BreakMessage } from '@/components/messages/BreakMessage';
 import { VideoInfo } from '@/components/video/VideoInfo';
 import { PomodoroTimer } from '@/components/pomodoro/PomodoroTimer';
 import RotatePhone from '@/components/ui/RotatePhone';
-
+export const runtime = 'edge';
 const Watch = () => {
   const { id } = useParams();
   const router = useRouter();

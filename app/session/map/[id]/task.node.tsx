@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Handle, Position } from '@xyflow/react';
-
+export const runtime = 'edge';
 export default function TaskNode({ data }: any) {
   return (
     <div
