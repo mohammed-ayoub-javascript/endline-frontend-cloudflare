@@ -5,6 +5,8 @@ import { ThemeProvider } from '@/theme/theme-provider';
 
 const ar = Readex_Pro({
   weight: '400',
+  subsets: ['arabic', 'latin'], 
+  display: 'swap',             
 });
 
 export const metadata: Metadata = {

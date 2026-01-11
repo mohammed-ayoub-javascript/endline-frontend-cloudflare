@@ -1,8 +1,11 @@
 {
-  "name": "endline",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "compatibility_date": "2024-11-18",
-  "compatibility_flags": ["nodejs_compat"],
+  "name": "endline",
+  "compatibility_date": "2026-01-10",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
